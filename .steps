@@ -1,0 +1,5 @@
+Steps to Creating a CMS_Blog App
+Step 1: Create Model, Fields and populate data for testing on graphcms.com 
+Step 2: Create the project folder and create a next app with tailwindcss using the command: npx ceate-next-app -e with-tailwindcss ./
+Step 3: Initialize git and push repository 
+Step 4: Install Dependencies
