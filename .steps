@@ -1,15 +1,45 @@
 Steps to Creating a CMS_Blog App
+
 Step 1: Create Model, Fields and populate data for testing on graphcms.com 
+
 Step 2: Create the project folder and create a next app with tailwindcss using the command: npx ceate-next-app -e with-tailwindcss ./
+
 Step 3: Initialize git and push repository 
+
 Step 4: Install Dependencies
+
 Step 5: Starting App structuring on the Index.js file 
+
 Step 6: Create the component folder and 3 starter files for the project which includes PostCard, Categories and PostWidget
+
 Step 7: Import the components in the index.js file
+
 Step 8: Complete the jsx for index.js and implement the component self closing tags appropriately
+
 Step 9: Create a styles folder/globals.scss and input the necessary style code 
+
 Step 10: Create the Header(Navigation Component)
+
 Step 11: Wrap the Header Component and children components in a Layout Component
+
 Step 12: Getting real data from the GraphCMS using Graphql by creating a folder in the root directory called services and creating a file, index.js
+
 Step 13: Import the services file in the pages/index.js file and use Nextjs getStaticProps to render out the data and store the data as props.
+
 Step 14: Display the data using PostCard Component
+
+Step 15: Create another query from services/index.js file for the recent and related post. and then import the file in the PostWidget Component
+
+Step 16: Create another query for the categories and import the function in the Categories component
+
+Step 17: Use the getCategories function on the Header.jsx by importing it from services/index.js. That means using the data as the Navigation Items
+
+Step 18: Create a detailed page by creating a folder inside the pages/post/[slug].js
+
+Step 19: Create all the necessary components like PostDetail, Author, CommentsForm, Comments and import them into the [slug].js and complete the structure of the [slug].js 
+
+Step 20: Create a getPostDetails Function inside of the services/index.js file and write the schemas and query to be able to get access to all the data for rendering the details of the post
+
+Step 21: IMplement the Post Details Component using Next getStaticProps and getStaticPaths
+
+Step 22: Implement the Author Component
