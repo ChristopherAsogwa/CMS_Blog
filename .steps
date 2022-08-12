@@ -43,3 +43,8 @@ Step 20: Create a getPostDetails Function inside of the services/index.js file a
 Step 21: IMplement the Post Details Component using Next getStaticProps and getStaticPaths
 
 Step 22: Implement the Author Component
+
+Step 23: Implement the Comment Form Component
+
+Step 24: Create a new query for submitting comment on the services/index.js
+
